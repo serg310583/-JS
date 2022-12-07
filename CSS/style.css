@@ -23,8 +23,7 @@ body {
   height: 783px;
   position: relative;
   background-color: #131313;
-  padding: 107px 134px 0px 134px;
-  
+  padding: 107px 134px 0px 134px;  
 }
 
 .slider__title-item {
@@ -42,7 +41,6 @@ body {
 }
 
 .slider__title-item.active{
-
   color: #e3b873;
   border-bottom: 1px solid #e3b873;
 }
@@ -80,6 +78,11 @@ body {
   color: #e3b873;
   margin: 0px;
   padding: 0 239px 34px 0;
+}
+
+.line {
+  padding-bottom: 10px;
+  margin-left: 30px;
 }
 
 .subtitle {
@@ -165,8 +168,7 @@ h3.item {
 
 .slider__dots {
   align-self: center;
-  display: flex;
-  
+  display: flex;  
 }
 
 .slider__dots :last-child{
