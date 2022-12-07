@@ -79,6 +79,7 @@ body {
 }
 
 .slider__titles {
+  display: flex;
   padding: 0 0 53px 0;
   margin-left: 492px;
   cursor: pointer;

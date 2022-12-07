@@ -67,7 +67,7 @@ function initSlider() {
     }
 
     function initTitles() {
-        images.forEach((images, index) => {
+        images.forEach((image, index) => {
           let title = `<div class="slider__title-item n${index} ${index === 0? "active" : ""}" data-index="${index}">${images[index].title}</div>`;
           sliderTitles.innerHTML += title;
         });
@@ -87,13 +87,7 @@ function initSlider() {
 
         sliderTitles.querySelector(".active").classList.remove("active");
         sliderTitles.querySelector(".n" + num).classList.add("active");
-    }
-
-
-
-
-
-    
+    }    
 }
 
     
